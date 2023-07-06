@@ -1,0 +1,13 @@
+Nome tabella : Auto_In_Vendita;
+
+Targa= TipoDato : Stringa , GrandezzaDato : varchar(7) ,  PRIMARY_KEY , AUTO_INCREMENT;
+Marca= TipoDato : Stringa , GrandezzaDato : varchar(15) NOT_NULL;           
+Numero_Cilindrata = TipoDato: Intero , GrandezzaDato : SMALLINT , NULL;     
+Numero_Sedili = TipoDato: Stringa , GrandezzaDato : TINYINT NULL;     
+Carburante = TipoDato : Stringa , GrandezzaDato : varchar(30) NULL;     
+Stato= TipoDato : Stringa , GrandezzaDato : varchar(9) NOT_NULL;     
+Anno_Di_Creazione = TipoDato: YEAR , GrandezzaDato : 4 NOT_NULL;     
+Data_Messa_In_Vendita= TipoDato: Date , GrandezzaDato : (YYYY-MM-GG) NULL;     
+Prezzo_Usata= TipoDato: Float , GrandezzaDato :(6,2) NULL;     
+Prezzo_Seminuova= TipoDato: Float , GrandezzaDato :(7,2) NULL;     
+Prezzo_Nuova= TipoDato: Float , GrandezzaDato : (8,2) NULL;     
